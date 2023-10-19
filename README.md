@@ -14,7 +14,8 @@ The application provides features for patient registration, doctor addition, app
 <a href="Spring Boot url"> 
   <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg"/>
 </a>
-## Table of Contents
+  
+  ## Table of Contents
 
 1. [Prerequisites](#prerequisites)
 2. [Installation](#installation)
@@ -49,6 +50,31 @@ Before you start, make sure you have the following prerequisites:
 java -jar target/doctor-appointment-app-1.0.0.jar
   ```
 4.Access the application at http://localhost:8080 in your web browser.
+## Configuration
+Database Configuration
+Configure the database connection in the application.properties or application.yml file. You may need to specify the URL, username, and password for your database.
+``` yaml
+spring.datasource.url=jdbc:mysql://localhost:3306/yourdb
+spring.datasource.username=yourusername
+spring.datasource.password=yourpassword
+```
+## Usage
+  ### Patient Registration
+   * Visit the application's homepage.
+   * Sign up for a new patient account by providing your information and selecting a username and password.
+  ### Patient Sign-in
+   * Log in as a registered patient using your username and password.
+  ###  Admin (Doctor) Addition
+   * To add doctors, log in as an admin user (you may manually designate an admin in the database).
+   * Navigate to the admin dashboard.
+   * Add doctors by providing their information.
+  ### Appointment Scheduling
+  * Logged-in patients can schedule appointments by selecting a doctor, date, and time.
+ ## Features
+* Patient registration and authentication.
+* Admin (Doctor) addition and authorization.
+* Appointment scheduling.
+* Security features to protect user data and system integrity.
 
 
 
