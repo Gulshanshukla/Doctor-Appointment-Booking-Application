@@ -75,6 +75,14 @@ spring.datasource.password=yourpassword
 * Admin (Doctor) addition and authorization.
 * Appointment scheduling.
 * Security features to protect user data and system integrity.
+ ## Contributing
+ If you would like to contribute to the project, please follow the guidelines in the CONTRIBUTING.md file.
+
+## License
+This project is licensed under the MIT License.
+### Happy appointment booking! If you have any questions or encounter issues, please don't hesitate to contact us!!!!!.
+
+
 
 
 
