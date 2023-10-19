@@ -23,7 +23,7 @@ The application provides features for patient registration, doctor addition, app
 5. [Features](#features)
 6. [Contributing](#contributing)
 7. [License](#license)
-   # Prerequisites
+## Prerequisites
 
 Before you start, make sure you have the following prerequisites:
 
@@ -32,13 +32,23 @@ Before you start, make sure you have the following prerequisites:
 - A relational database (e.g., MySQL, PostgreSQL) with appropriate configurations.
 - IDE for development (e.g., IntelliJ IDEA, Eclipse).
 - Git for version control.
-  ## Installation
+ ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/doctor-appointment-app.git
-   cd doctor-appointment-app
-
+ ```bash
+ git clone https://github.com/yourusername/doctor-appointment-app.git
+ cd doctor-appointment-app
+ ```
+   
+2. Build the project using Maven:
+  ``` bash
+  mvn clean install
+  ```
+3. Run the application:
+  ``` bash
+java -jar target/doctor-appointment-app-1.0.0.jar
+  ```
+4.Access the application at http://localhost:8080 in your web browser.
 
 
 
